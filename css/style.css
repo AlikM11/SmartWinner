@@ -1,0 +1,347 @@
+
+.d-flex{
+    display: flex;
+}
+.d-space-between{
+    justify-content: space-between;
+}
+#container {
+    padding: 0 15px;
+}
+
+#logo-header-right {
+    float: right;
+}
+
+#logo-header>div {
+    padding: 15px 0 0 15px;
+}
+
+header {
+    padding: 20px 5px;
+}
+
+.roboto9{
+    font: .9em 'Roboto'
+}
+.bold{
+    font-weight: bold;
+}
+
+.inline-block li{
+    display: inline-block;
+}
+
+.social-networks li {
+    padding: 5px 0;
+}
+
+
+#lang-select>p {
+    padding: 0 5px;
+}
+
+#drop-down {
+    width: 12px;
+    height: 8px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+#navs {
+    padding: 15px 0;
+}
+
+#nav-left {
+    background-color: #F30000;
+    padding: 5px;
+    border-radius: 10px;
+    height: 34px
+}
+
+#nav-left>a:first-child {
+    text-decoration: underline;
+}
+
+#nav-left a {
+    color: #fff;
+    text-transform: uppercase;
+    font: bold 1em 'Roboto';
+    line-height: 120%;
+    border-right: 1px solid #fff;
+    padding: 15px;
+}
+
+h1 {
+    color: #000;
+    padding: 15px 0;
+}
+
+#my-account {
+    float: right;
+    padding-top: 3px;
+    position: relative;
+    z-index: 99;
+    left: 5px;
+}
+
+#my-account>a {
+    background-color: #0061A3;
+    border: 1px solid#0061A3;
+    border-radius: 10px;
+    padding: 8px !important;
+}
+
+#banner img {
+    height: 462px;
+    width: 100%;
+}
+
+#moredetails {
+    text-decoration: underline;
+    padding-bottom: 70px;
+}
+
+#moredetails a {
+    float: right;
+}
+
+#you-pic {
+    font: 1em 'Roboto';
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.offers {
+
+    padding: 15px 0 50px 5px;
+}
+
+.col1 {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 5px 10px;
+    height: 110px;
+    padding-right: 7px;
+}
+
+.col1>img {
+    float: left;
+    padding-right: 5px;
+}
+
+
+.col1 div a {
+    font-weight: 500;
+    color: #0061A3;
+    padding-left: 100px;
+}
+
+.col1 p {
+    color: #5F5F5F;
+    line-height: 120%;
+    text-align: justify;
+}
+
+.rol1 {
+    width: 33%;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+.price ul {
+    padding-top: 15px;
+}
+
+.price p {
+    color: #13902A;
+    font: bold 1.7em 'Roboto';
+    line-height: 22px;
+    padding-top: 15px;
+}
+
+.play-now-div {
+    background-color: #0061A3;
+    padding: 10px;
+}
+
+.play-now-div ul li {
+    display: inline-block;
+}
+
+.play-now {
+    width: 150px;
+    height: 36px;
+    background-color: #F7D300;
+    border: 1px solid #F7D300;
+    border-radius: 8px;
+    font: bold .9em 'Roboto';
+    color: #000;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.play-now-div ul:nth-child(1) {
+    color: #fff;
+    font: 1em 'Roboto';
+}
+
+#play-upcoming {
+    text-align: center;
+    background-color: #F30000;
+    color: #fff;
+    font-family: bold 1em 'Roboto';
+    padding: 10px 0;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.star {
+    float: right;
+    padding: 5px 5px;
+}
+
+.flag ul {
+    padding-top: 15px;
+}
+
+.gamestimes {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 5px 5px;
+    padding-right: 7px;
+}
+
+.robotobold {
+    font: bold 1.3em 'Roboto';
+    color: #000;
+}
+
+.paddingbottom5 {
+    padding-bottom: 5px;
+}
+.paddingbottom30{
+    padding-bottom: 30px;
+}
+.blue { color: #0061A3 }
+.green{ color:#13902A }
+
+.aligncenter {
+    text-align: center;
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+.winneramount span{
+    font:bold 2.25rem 'Roboto';
+    color:  #0061A3 ;
+}
+.winneramount p{
+    font: bold 1.8em 'Roboto';
+    color: #000;
+}
+#biggest {
+    background-color: #F30000;
+    width: 70%;
+    border: 1px solid #F30000;
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+#latest {
+    background-color: #F30000;
+    border: 1px solid #F30000;
+    border-radius: 6px;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w30 {
+    width: 30%;
+}
+#won{
+    text-align: center;
+}
+#won>li{
+    margin-bottom: 25px;
+}
+#won li{
+    display: inline-block;
+    font:1.8em 'Roboto';
+    font-weight: 500;
+    line-height: 36px;
+}
+#result{
+    display: flex;
+}
+#result ul li{
+    display: inline-block;
+}
+#result>div{
+    padding-right: 5px;
+}
+#date{
+    padding-left: 15px;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.border{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+.live-chat{
+    font:1em 'Roboto';
+    font-weight: 500;
+}
+#us{
+    font:bold 1.7em 'Roboto';
+    color: #13902A;
+}
+#tickets{
+font:bold 1.7em 'Roboto';
+}
+#tickets span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+}
+footer{
+    background: url('../img/footer-bg.svg');
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+#cards tr td{
+ padding: 5px;
+}
+.useful li{
+
+    padding-bottom: 8px;
+}
+.pbottom10{
+    padding-bottom: 10px
+}
